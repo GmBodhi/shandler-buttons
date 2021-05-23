@@ -17,14 +17,6 @@ module.exports = {
         console.log('654')
         interaction.reply("tesfsfst",{ components: cmp, type: 4, flags: 64 }).then(m => {
             interaction.client.on('ButtonClick', handler)
-            
-
-  //interaction.client.api.webhooks(interaction.client.user.id, m.token).messages("@original").get().then(mm => {
-                //interaction.client.api.channels(interaction.channel.id).messages(mm.id).reactions(encodeURI('👀'), "@me").put().then(console.log).catch(console.error)
-                //mm.id
-              //  interaction.channel.messages.fetch(mm.id).then(mmm => mmm.react('👀'))
-              //  console.log(mm)
-            //})
         })
     }
 }
