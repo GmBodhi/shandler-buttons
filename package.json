@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "shandler": "^1.1.9"
+    "shandler": "github:GmBodhi/shandler"
   }
 }
