@@ -16,7 +16,7 @@ module.exports = {
         ]
         console.log('654')
         interaction.reply("tesfsfst",{ components: cmp, type: 4, flags: 64 }).then(m => {
-            interaction.client.on('ButtonClick', handler)
+            interaction.client.on('buttonClick', handler)
         })
     }
 }
